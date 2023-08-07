@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    
+</head>
+<body>
+    <h1 style="text-align: center;">Survey Form</h1>
+    <form>
+      <fieldset>
+       
+        <legend>Add User</legend>
+        <label for="name">Name</label><br>
+        <input type="text" name="Name" id="Name" placeholder="Name"><br>
+
+        <label for="last name">Last Name</label><br>
+        <input type="text" name="Last Name " id="Last Name" placeholder="Last Name"><br>
+
+        <label for="email">Email</label><br>
+        <input type="text" name="Email" id="Email" placeholder="Email"><br>
+   
+    <h2>Status</h2>
+    <label for="Status"Status></label>
+    <select id="Status">
+        <option value="Student">Student</option>
+        <option value="Teacher">Teacher</option>
+        <option value="Guest">Guest</option>
+    </select>
+    
+       
+              <p>Choose your favourite programming language</p>
+            <input type="radio" id="HTML" name="HTML" value="HTML">
+            <label for="HTML">HTML</label><br>
+            <input type="radio" id="css" name="css" value="css">
+            <label for="CSS">CSS</label><br>
+            <input type="radio" id="Javascript" name="Javascript" value="Javascript">
+            <label for="Javascript">Javascript</label><br>
+
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Add Comments"></textarea><br>
+    
+            <label for="currentDate">Current Date:</label><br>
+            <input type="date" id="currentDate" name="currentDate"><br>
+    
+            Checkbox input for newsletter signup 
+        <input type="checkbox" id="newsletterSignup" name="newsletterSignup">
+        <label for="newsletterSignup">Sign up for the newsletter</label><br>
+
+        <input type="checkbox" id="termsAgreement" name="termsAgreement">
+        <label for="termsAgreement">Agree to terms and conditions</label><br>
+        <input type="submit" value="Submit"><br>
+        </fieldset>
+    </form>
+</body>
+</html>
